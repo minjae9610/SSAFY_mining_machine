@@ -37,7 +37,7 @@ ${NAME}:			${OBJS}
 					@${MAKE} -C ${LIBSPATH}/libmjkio
 					@${MAKE} -C ${LIBSPATH}/libmjkstd
 					@${MAKE} -C ${LIBSPATH}/libmjkqueue
-					${CC} ${OBJS} -o ${NAME} -L ${LIBSPATH}/libmjkio -lmjkio -L ${LIBSPATH}/libmjkstd -lmjkstd -L ${LIBSPATH}/libmjkqueue -lmjkqueue
+					${CC} ${OBJS} -o ${NAME} -lpthread -L ${LIBSPATH}/libmjkio -lmjkio -L ${LIBSPATH}/libmjkstd -lmjkstd -L ${LIBSPATH}/libmjkqueue -lmjkqueue
 
 clean:
 					${REMOVE} ${OBJS}
