@@ -1,2 +1,2 @@
-# SSFAY_mining_machine
-SSFAY mining machine project
+# SSAFY_mining_machine
+SSAFY mining machine project
